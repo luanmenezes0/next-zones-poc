@@ -1,0 +1,12 @@
+.list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1rem;
+}
+
+.list article {
+  background-color: #4a1c40;
+  padding: 1rem;
+  color: white;
+  border-radius: 8px;
+}
